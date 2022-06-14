@@ -1,15 +1,11 @@
 import React from "react";
-import Link from "next/link";
-import styles from "../styles/Home.module.css";
-import Layout from "../component/Layout";
-import Head from "next/head";
+import Layout from "@/components/Layout";
 const about = () => {
   return (
     <div>
-      <Layout>
-   <h1>about</h1>
-   <p>App to find out</p>
-
+      <Layout title="About sports news">
+        <h1>about</h1>
+        <p>App to find out sports news like cricket,football,f2,tennis ,golf</p>
       </Layout>
     </div>
   );

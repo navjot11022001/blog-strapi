@@ -1,16 +1,14 @@
-
-import {useRouter} from "next/router"
-import React from 'react'
+import { useRouter } from "next/router";
+import React from "react";
+import Layout from "@/components/Layout";
 
 const singleNews = () => {
-const router=useRouter()
-
+  const router = useRouter();
   return (
-    <div>
-    
-    <h2>router qury {router.query.slug}</h2>
-    [slug]</div>
-  )
-}
+    <Layout>
+      <h2>router qury {router.query.slug}</h2>
+    </Layout>
+  );
+};
 
-export default [slug]
+export default [slug];
